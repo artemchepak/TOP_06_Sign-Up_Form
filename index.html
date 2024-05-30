@@ -12,7 +12,10 @@
 <body>
     <div class="wrapper">
         <div class="left">
-            <h1 class="title">JUST SUSHI</h1>
+            <div class="info">
+                <img class="icon" src="src/img/icon.svg" alt="icon">
+                <h1 class="title">JUST TITLE</h1>
+            </div>
         </div>
         <div class="right">
             <div class="rigth-content">
@@ -25,35 +28,48 @@
                 </p>
                 <form method="post" class="form" id="form">
                     <h3 class="form-title">Let's do this!</h3>
-                    <label class="form-label" for="firstName">
-                        First name
-                        <input class="form-input"type="text" id="firstName" name="firstName" placeholder="John"
-                            title="Enter you first name here" minlength="3">
-                    </label>
-                    <label class="form-label" for="lastName">
-                        Last name
-                        <input class="form-input"type="text" id="lastName" name="lastName" placeholder="Dou"
-                            title="Enter you last name here" minlength="3">
-                    </label>
-                    <label class="form-label" for="email">
-                        Email
-                        <input class="form-input"type="email" id="email" name="email" placeholder="jd@something.com"
-                            title="Enter you email here" minlength="3">
-                    </label>
-                    <label class="form-label" for="phone">
-                        Phone
-                        <input class="form-input"type="tel" id="phone" name="phone" placeholder="800-123-456" title="Enter you phone here"
-                            pattern="[\d]{3}-[\d]{3}-[\d]{3}">
-                    </label>
-                    <label class="form-label" for="password">
-                        Password
-                        <input class="form-input"type="password" id="password" name="password" title="Enter you password here">
-                    </label>
-                    <label class="form-label" for="password-confirmation">
-                        Password
-                        <input class="form-input"type="password" id="password-confirmation" name="password-confirmation"
-                            title="Confirm you password">
-                    </label>
+                    <div class="field-holder">
+                        <label class="form-label" for="firstName">
+                            First name
+                            <input class="form-input" type="text" id="firstName" name="firstName" placeholder="John"
+                                title="Enter your first name here" minlength="3">
+                        </label>
+                    </div>
+                    <div class="field-holder">
+                        <label class="form-label" for="lastName">
+                            Last name
+                            <input class="form-input" type="text" id="lastName" name="lastName" placeholder="Dou"
+                                title="Enter your last name here" minlength="3">
+                        </label>
+                    </div>
+                    <div class="field-holder">
+                        <label class="form-label" for="email">
+                            Email
+                            <input class="form-input" type="email" id="email" name="email"
+                                placeholder="jd@something.com" title="Enter your email here" minlength="3">
+                        </label>
+                    </div>
+                    <div class="field-holder">
+                        <label class="form-label" for="phone">
+                            Phone
+                            <input class="form-input" type="tel" id="phone" name="phone" placeholder="800-123-456"
+                                title="Enter your phone here" pattern="[\d]{3}-[\d]{3}-[\d]{3}">
+                        </label>
+                    </div>
+                    <div class="field-holder">
+                        <label class="form-label" for="password">
+                            Password
+                            <input class="form-input" type="password" id="password" name="password"
+                                title="Enter your password here">
+                        </label>
+                    </div>
+                    <div class="field-holder">
+                        <label class="form-label" for="password-confirmation">
+                            Password
+                            <input class="form-input" type="password" id="password-confirmation"
+                                name="password-confirmation" title="Confirm your password">
+                        </label>
+                    </div>
                 </form>
                 <button class="btn" type="submit" form="form">Create Account</button>
                 <p class="text account">Already have an account? <a href="#" class="account-link">Log in</a></p>
