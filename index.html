@@ -30,28 +30,35 @@
                     <h3 class="form-title">Let's do this!</h3>
                     <div class="field-holder">
                         <label class="form-label" for="firstName">First name</label>
-                        <input class="form-input" type="text" id="firstName" name="firstName" title="Enter your first name here" minlength="3" required>
+                        <input class="form-input" type="text" id="firstName" name="firstName"
+                            title="Enter your first name here" minlength="3" required>
                     </div>
                     <div class="field-holder">
                         <label class="form-label" for="lastName">Last name</label>
-                        <input class="form-input" type="text" id="lastName" name="lastName" title="Enter your last name here" minlength="3" required>
+                        <input class="form-input" type="text" id="lastName" name="lastName"
+                            title="Enter your last name here" minlength="3" required>
                     </div>
                     <div class="field-holder">
                         <label class="form-label" for="email">Email</label>
-                        <input class="form-input" type="email" id="email" name="email" title="Enter your email here" minlength="3" required>
+                        <input class="form-input" type="email" id="email" name="email" title="Enter your email here"
+                            minlength="3" required>
                     </div>
                     <div class="field-holder">
                         <label class="form-label" for="phone">Phone</label>
-                        <input class="form-input" type="tel" id="phone" name="phone" title="Enter your phone here" pattern="\d{3}-\d{3}-\d{3}" required>
+                        <input class="form-input" type="tel" id="phone" name="phone" title="Enter your phone here"
+                            pattern="\d{3}-\d{3}-\d{3}" required>
                     </div>
                     <div class="field-holder">
                         <label class="form-label" for="password">Password</label>
-                        <input class="form-input" type="password" id="password" name="password" title="Enter your password here" required>
+                        <input class="form-input" type="password" id="password" name="password"
+                            title="Enter your password here" required>
                     </div>
                     <div class="field-holder">
                         <label class="form-label" for="password-confirmation">Confirm Password</label>
-                        <input class="form-input" type="password" id="password-confirmation" name="password-confirmation" title="Confirm your password" required>
+                        <input class="form-input" type="password" id="password-confirmation"
+                            name="password-confirmation" title="Confirm your password" required>
                     </div>
+                    <div id="error-message" class="error-message">Passwords do not match</div>
                     <button class="btn" type="submit" form="form">Create Account</button>
                 </form>
                 <p class="text account">Already have an account? <a href="#" class="account-link">Log in</a></p>
